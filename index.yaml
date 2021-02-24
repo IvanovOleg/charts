@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   hello-nodejs:
   - apiVersion: v2
+    appVersion: latest
+    created: "2021-02-24T22:17:05.3974935+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 1dae0dd840400ce0918dc85934578db702c6edcde97ec3fac623e75ef3f07697
+    name: hello-nodejs
+    type: application
+    urls:
+    - hello-nodejs-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-02-24T21:57:41.786483+02:00"
+    created: "2021-02-24T22:17:05.396456+02:00"
     description: A Helm chart for Kubernetes
     digest: 9fce457e0b6223af7ccceb60392adca4276ea35ab4f3cba5d313f1ba82536d31
     name: hello-nodejs
@@ -11,4 +21,4 @@ entries:
     urls:
     - hello-nodejs-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-24T21:57:41.7845098+02:00"
+generated: "2021-02-24T22:17:05.3954561+02:00"
